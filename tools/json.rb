@@ -1,4 +1,4 @@
-require 'json'
+'json'
 
 # Add >LOCAL< lib to LOAD_PATH
 $LOAD_PATH.unshift '../lib'
