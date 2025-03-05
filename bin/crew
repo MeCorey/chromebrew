@@ -15,7 +15,8 @@ require 'mkmf'
 require 'tmpdir'
 require 'uri'
 begin
-  require_relative '../commands/check'
+  
+require_relative '../commands/check'
 rescue LoadError
   # Older crew installs won't have the commands dir in the sparse checkout,
   # so disable sparse checkout if those files are missing.
