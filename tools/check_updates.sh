@@ -15,8 +15,7 @@ if test "$1"; then
     echo "offset: # of lines to skip"
     echo "lines: # of lines to check"
     exit 1
-  fi
-  if [[ "$1" == "core" ]]; then
+  fi  if [[ "$1" == "core" ]]; then
     rm -f /tmp/urls.txt
     cat core_packages.txt > /tmp/names.txt
     ps=$(< /tmp/names.txt)
